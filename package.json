@@ -1,0 +1,26 @@
+{
+	"name": "enmlOfHtml",
+	"version": "0.0.1",
+	"description": "a js library to convert HTML to ENML, Evernote's XHTML format",
+	"homepage": "https://github.com/vincentlaucy/enmlOfHtml",
+	"author": "Vincent Lau @vincent_lcy",
+	"keywords": [
+	"html",
+	"evernote",
+	"enml"
+	],
+	"main": "enmlOfHtml.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/vincentlaucy/enmlOfHtml.git"
+		},
+		"license": "MIT",
+		"dependencies": {
+			"xml-writer": "*",
+			"resanitize":"*",
+			"styliner":"*"
+			},
+			"devDependencies": {
+				    "chai":"*"
+			}
+		}
