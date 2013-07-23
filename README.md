@@ -11,7 +11,7 @@ The API is simple but the whole idea is little bit more complex then its name, s
 This library is insipired by & designed to be used with berryboy's [enml-js](https://github.com/berryboy/enml-js)
 I put it as separate project at the moment as there is additional complexity and the style may not align.
 
-At the moment hacking the source code is expected.
+At the moment hacking the source code is expected. 
 
 ###Usage
 ```
@@ -20,7 +20,7 @@ var enmlOfHtmljs = require('enmlOfHtml');
 var html = '<html><p>put html here</p></html>'
 
 //ENML is valid ENML that you can send to evernote for creation
-enmlOfHtml.ENMLOfHTML(html,function(err,ENML){
+enmlOfHtmljs.ENMLOfHTML(html,function(err,ENML){
 	console.log(ENML);
 });
 
